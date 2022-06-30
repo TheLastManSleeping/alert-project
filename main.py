@@ -5,6 +5,7 @@ from classes.processing_class import ProcessingCLass
 pd.options.mode.chained_assignment = None
 
 while True:
+    """Starting alert system"""
     processor = ProcessingCLass()
-    processor.start_processing()
+    processor.read_data()
     sleep(3600)
